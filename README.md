@@ -63,7 +63,7 @@ Returns a list of commit IDs and save it to variable `sha` for the specified rep
 g.get_single_commit(github_ID, repo, commit_ID, realname = "")
 ```
 
-Returns a list of dictionary `{date, author, filename}` for a single commit. `commit_ID` can be obtained by previous calls to `get_commit_history`, optional realname can be passed to replace the `author` field in the generated xml file. It is set to github_ID by default.
+Returns a list of dictionary `{date, author, filename}` for a single commit. `commit_ID` can be obtained by previous calls to `get_commits_history`, optional realname can be passed to replace the `author` field in the generated xml file. It is set to github_ID by default.
 
 - - -
 
