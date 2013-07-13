@@ -89,4 +89,4 @@ g.generate_xml(file_name = "commits.xml")
 
 Generates the `code_swarm` compatible xml file. You can replace the default file name.
 
-Now you can use `code_swarm` to generate videos based on this xml file. 
+Now you can use `code_swarm` to generate videos based on this xml file. (Starting from [Step 3](https://code.google.com/p/codeswarm/wiki/GeneratingAVideo).
